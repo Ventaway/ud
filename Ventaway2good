@@ -102,7 +102,7 @@ local c = ws.CurrentCamera
 -- // Notification Function
 local function SendNotification(text)
     Notification:Notify(
-        {Title = "VERSION 10", Description = "IMPERIAL - "..text},
+        {Title = "VERSION 10", Description = "VENTAWAY - "..text},
         {OutlineColor = Color3.fromRGB(255,215,0),Time = 2, Type = "image"},
         {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255,215,0)}
     )
